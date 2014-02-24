@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Matthew McCroskey" => "matthew.mccroskey@lonelyplanet.com" }
   s.platform     = :ios, '6.0'
-  #s.source       = { :git => "http://EXAMPLE/LPMFetchedResultsDisplayManager.git", :tag => "0.0.1" }
-  s.source_files  = '*.{h.m}'
+  s.source       = { :git => "https://github.com/lonelyplanet/LPMFetchedResultsDisplayManager.git", :commit => "947eb74c0ffc52e97a6b0f467d4939b304b305f6" }
+  s.source_files  = 'LPMFetchedResultsDisplayManager/LPMFetchedResultsDisplayManager/LPMFetchedResultsDisplayManager.{h.m}'
   s.framework  = 'CoreData'
   s.requires_arc = true
 
